@@ -49,7 +49,7 @@
     "yearPublished": {
       "type": "array",
       "required": true
-    },
+    }
   },
   "validations": [],
   "relations": {
