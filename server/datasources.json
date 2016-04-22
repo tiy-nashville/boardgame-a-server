@@ -2,5 +2,9 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "noop": {
+    "name": "noop",
+    "connector": "memory"
   }
 }

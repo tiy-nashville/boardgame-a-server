@@ -47,5 +47,9 @@
   "game": {
     "dataSource": "db",
     "public": true
+  },
+  "bgg": {
+    "dataSource": "noop",
+    "public": true
   }
 }
