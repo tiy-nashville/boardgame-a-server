@@ -17,13 +17,16 @@ module.exports = function(server) {
   server.use(router);
 
   router.get(`/migrations`, function(req, res) {
-    const db = server.dataSources.pg;
+    const db = server.dataSources.db;
     const models = [
       'User',
       'AccessToken',
       'ACL',
       'RoleMapping',
       'Role',
+      'gamer',
+      'message',
+      'room',
     ];
 
     Promise.all(models.map(function(model) {

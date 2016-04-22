@@ -31,5 +31,21 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "gamer": {
+    "dataSource": "db",
+    "public": true
+  },
+  "message": {
+    "dataSource": "db",
+    "public": true
+  },
+  "room": {
+    "dataSource": "db",
+    "public": true
+  },
+  "game": {
+    "dataSource": "db",
+    "public": true
   }
 }

@@ -1,7 +1,6 @@
 {
   "loopback-component-jsonapi": {
-    "exclude": [
-    ]
+    "exclude": []
   },
   "loopback-component-explorer": {
     "mountPath": "/explorer"
