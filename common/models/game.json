@@ -5,9 +5,60 @@
   "options": {
     "validateUpsert": true
   },
-  "properties": {},
+  "properties": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "mechanics": {
+      "type": "string",
+      "required": true
+    },
+    "minPlayers": {
+      "type": "number",
+      "required": true
+    },
+    "maxPlayers": {
+      "type": "number",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "string",
+      "required": true
+    },
+    "playingTime": {
+      "type": "number",
+      "required": true
+    },
+    "designers": {
+      "type": "array",
+      "required": true
+    },
+    "publishers": {
+      "type": "array",
+      "required": true
+    },
+    "artists": {
+      "type": "array",
+      "required": true
+    },
+    "yearPublished": {
+      "type": "array",
+      "required": true
+    },
+  },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "room": {
+      "type": "hasOne",
+      "model": "room",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }
