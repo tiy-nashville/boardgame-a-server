@@ -27,6 +27,7 @@ module.exports = function(server) {
       'gamer',
       'message',
       'room',
+      'game',
     ];
 
     Promise.all(models.map(function(model) {
@@ -35,6 +36,14 @@ module.exports = function(server) {
       res.send({
         status: 200,
         message: 'Migration Complete',
+      });
+    });
+  });
+
+  router.get(`/seed-games`, function(req, res) {
+    server.models.Game.create(require(`../seeds/games`), function () {
+      res.send({
+        message: 'games created',
       });
     });
   });

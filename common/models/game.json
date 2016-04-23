@@ -5,7 +5,38 @@
   "options": {
     "validateUpsert": true
   },
-  "properties": {},
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "min-players": {
+      "type": "string"
+    },
+    "max-players": {
+      "type": "string"
+    },
+    "year-published": {
+      "type": "string"
+    },
+    "mechanics": {
+      "type": "string"
+    },
+    "designers": {
+      "type": "string"
+    },
+    "publishers": {
+      "type": "string"
+    },
+    "artists": {
+      "type": "string"
+    }
+  },
   "validations": [],
   "relations": {},
   "acls": [],
