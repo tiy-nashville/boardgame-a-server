@@ -6,39 +6,59 @@
     "validateUpsert": true
   },
   "properties": {
-    "name": {
-      "type": "string"
-    },
-    "description": {
-      "type": "string"
-    },
-    "image": {
-      "type": "string"
-    },
-    "min-players": {
-      "type": "string"
-    },
-    "max-players": {
-      "type": "string"
-    },
-    "year-published": {
-      "type": "string"
+    "title": {
+      "type": "string",
+      "required": true
     },
     "mechanics": {
-      "type": "string"
+      "type": "string",
+      "required": true
+    },
+    "minPlayers": {
+      "type": "number",
+      "required": true
+    },
+    "maxPlayers": {
+      "type": "number",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "string",
+      "required": true
+    },
+    "playingTime": {
+      "type": "number",
+      "required": true
     },
     "designers": {
-      "type": "string"
+      "type": "array",
+      "required": true
     },
     "publishers": {
-      "type": "string"
+      "type": "array",
+      "required": true
     },
     "artists": {
-      "type": "string"
+      "type": "array",
+      "required": true
+    },
+    "yearPublished": {
+      "type": "array",
+      "required": true
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "room": {
+      "type": "hasOne",
+      "model": "room",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

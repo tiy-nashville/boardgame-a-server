@@ -17,6 +17,11 @@
       "type": "hasMany",
       "model": "message",
       "foreignKey": ""
+    },
+    "game": {
+      "type": "belongsTo",
+      "model": "game",
+      "foreignKey": ""
     }
   },
   "acls": [],
