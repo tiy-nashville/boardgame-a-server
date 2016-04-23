@@ -1,6 +1,6 @@
 [
   {
-    "name": "Pandemic",
+    "title": "Pandemic",
     "description": "In Pandemic, several virulent diseases have broken out simultaneously all over the world! The players are disease-fighting specialists whose mission is to treat disease hotspots while researching cures for each of four plagues before they get out of hand. The game board depicts several major population centers on Earth. On each turn, a player can use up to four actions to travel between cities, treat infected populaces, discover a cure, or build a research station. A deck of cards provides the players with these abilities, but sprinkled throughout this deck are Epidemic! cards that accelerate and intensify the diseases' activity. A second, separate deck of cards controls the \"normal\" spread of the infections. Taking a unique role within the team, players must plan their strategy to mesh with their specialists' strengths in order to conquer the diseases. For example, the Operations Expert can build research stations which are needed to find cures for the diseases and which allow for greater mobility between cities; the Scientist needs only four cards of a particular disease to cure it instead of the normal five—but the diseases are spreading quickly and time is running out. If one or more diseases spreads beyond recovery or if too much time elapses, the players all lose. If they cure the four diseases, they all win!",
     "image": "https://cf.geekdo-images.com/images/pic1534148.jpg",
     "min-players": "2",
@@ -12,7 +12,7 @@
     "artists": "Josh Cappel, Christian Hanisch, Régis Moulun, Chris Quilliams, Tom Thiel"
   },
   {
-    "name": "Dixit",
+    "title": "Dixit",
     "description": "2010 Spiel des Jahres Winner One player is the storyteller for the turn and looks at the images on the 6 cards in her hand. From one of these, she makes up a sentence and says it out loud (without showing the card to the other players). Each other player selects the card in their hands which best matches the sentence and gives the selected card to the storyteller, without showing it to the others. The storyteller shuffles her card with all the received cards. All pictures are shown face up and every player has to bet upon which picture was the storyteller's. If nobody or everybody finds the correct card, the storyteller scores 0, and each of the other players scores 2. Otherwise the storyteller and whoever found the correct answer score 3. Players score 1 point for every vote for their own card. The game ends when the deck is empty or if a player scores 30 points. In either case, the player with the most points wins the game. The base game and all expansions have 84 cards each.",
     "image": "https://cf.geekdo-images.com/images/pic455883.jpg",
     "min-players": "3",
@@ -24,7 +24,7 @@
     "artists": "Marie Cardouat"
   },
   {
-    "name": "Android: Netrunner The Card Game",
+    "title": "Android: Netrunner The Card Game",
     "description": "Android: Netrunner is a two-player Living Card Game® set in a dystopian, cyberpunk future where monolithic megacorps own and control the vast majority of human interests. While corporation players try to score points by advancing their agendas, they have to guard their intellectual properties from the elite and subversive hackers known as netrunners. Netrunners attempt to win the game by stealing the corp's agendas, by any means possible!",
     "image": "https://upload.wikimedia.org/wikipedia/en/c/c2/Android_Netrunner_Core_Set_Box.jpg",
     "min-players": "2",
@@ -36,19 +36,19 @@
     "artists": "Bruno Balixa, Ralph Beisner, Del Borovic, Gong Studios, Amelie Hutt, Henning Ludvigsen, Ed Mattinian, Adam Schumpert, Mark Anthony Taduran"
   },
   {
-    "name": "7 Wonders",
+    "title": "7 Wonders",
     "description": "You are the leader of one of the 7 great cities of the Ancient World. Gather resources, develop commercial routes, and affirm your military supremacy. Build your city and erect an architectural wonder which will transcend future times.",
     "image": "http://static1.squarespace.com/static/55f65034e4b0f8a9c68669fd/56c4b7b807eaa00b964d26fb/56c4b7d207eaa00b964d2802/1455732952146/7+wonders.jpg",
     "min-players": "2",
     "max-players": "7",
-    "year-published": "",
+    "year-published": "2010",
     "mechanics": "Ancient, Card Game, City Building, Civilization",
     "designers": "Antoine Bauza",
     "publishers": "Repos Production, ADC Blackfire Entertainment, Asmodee, Asterion Press, Galápagos Jogos, Gém Klub Kft., Hobby Japan, Kaissa Chess & Games, Lautapelit.fi, REBEL.pl",
     "artists": "Miguel Coimbra"
   },
   {
-    "name": "Arkham Horror",
+    "title": "Arkham Horror",
     "description": "Arkham Horror is a cooperative adventure game themed around H.P Lovecraft's Cthulhu Mythos. Players choose from 16 Investigators and take to the streets of Arkham. Before the game, one of the eight Ancient Ones is chosen and it's up to the Investigators to prevent it from breaking into our world. During the course of the game, players will upgrade their characters by acquiring skills, allies, items, weapons, and spells. It's up to the players to clean out the streets of Arkham by fighting many different types of monsters, but their main goal is to close portals to other dimensions that are opening up around town. With too many portals open the Ancient One awakens and the players only have one last chance to save the world. Defeat the Ancient One in combat!",
     "image": "https://upload.wikimedia.org/wikipedia/en/e/ed/Arkham_Horror_revised_box.jpg",
     "min-players": "1",

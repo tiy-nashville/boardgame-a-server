@@ -41,7 +41,8 @@ module.exports = function(server) {
   });
 
   router.get(`/seed-games`, function(req, res) {
-    server.models.Game.create(require(`../seeds/games`), function () {
+    server.models.Game.create(require(`../seeds/games`), function (err) {
+      console.log(err);
       res.send({
         message: 'games created',
       });

@@ -14,11 +14,11 @@
       "type": "string",
       "required": true
     },
-    "minPlayers": {
+    "min-players": {
       "type": "number",
       "required": true
     },
-    "maxPlayers": {
+    "max-players": {
       "type": "number",
       "required": true
     },
@@ -30,23 +30,20 @@
       "type": "string",
       "required": true
     },
-    "playingTime": {
-      "type": "number",
-      "required": true
+    "playing-time": {
+      "type": "number"
     },
     "designers": {
       "type": "string",
       "required": true
     },
     "publishers": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "artists": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
-    "yearPublished": {
+    "year-published": {
       "type": "string",
       "required": true
     }
