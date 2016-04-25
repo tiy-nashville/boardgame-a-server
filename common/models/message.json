@@ -10,7 +10,7 @@
       "type": "string",
       "required": true
     },
-    "createdAt": {
+    "created-at": {
       "type": "date",
       "required": true
     }

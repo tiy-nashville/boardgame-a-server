@@ -14,11 +14,11 @@
       "type": "string",
       "required": true
     },
-    "minPlayers": {
+    "min-players": {
       "type": "number",
       "required": true
     },
-    "maxPlayers": {
+    "max-players": {
       "type": "number",
       "required": true
     },
@@ -30,7 +30,7 @@
       "type": "string",
       "required": true
     },
-    "playingTime": {
+    "playing-time": {
       "type": "number",
       "required": true
     },
@@ -46,7 +46,7 @@
       "type": "array",
       "required": true
     },
-    "yearPublished": {
+    "year-published": {
       "type": "array",
       "required": true
     }
