@@ -31,12 +31,10 @@
       "required": true
     },
     "playing-time": {
-      "type": "number",
-      "required": true
+      "type": "number"
     },
     "designers": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "publishers": {
       "type": "string"
@@ -45,8 +43,7 @@
       "type": "string"
     },
     "year-published": {
-      "type": "string",
-      "required": true
+      "type": "string"
     }
   },
   "validations": [],
