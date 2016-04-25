@@ -35,19 +35,17 @@
       "required": true
     },
     "designers": {
-      "type": "array",
+      "type": "string",
       "required": true
     },
     "publishers": {
-      "type": "array",
-      "required": true
+      "type": "string"
     },
     "artists": {
-      "type": "array",
-      "required": true
+      "type": "string"
     },
     "year-published": {
-      "type": "array",
+      "type": "string",
       "required": true
     }
   },

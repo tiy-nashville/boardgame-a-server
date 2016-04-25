@@ -61,6 +61,10 @@ module.exports = function(Bgg) {
     }
 
     search(req.query.query).then(xml => {
+      if (!xml.items.item) {
+        return {data: []};
+      }
+
       const data = xml.items.item.map((game) => {
         const attributes = {};
 
