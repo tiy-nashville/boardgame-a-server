@@ -3,7 +3,7 @@ module.exports = function(Message) {
     var req = context.req;
 
     req.body.data.attributes['created-at'] = Date.now();
-    req.body.data.relationships.chatter.data = {
+    req.body.data.relationships.gamer.data = {
       id: req.accessToken.userId,
     };
 
